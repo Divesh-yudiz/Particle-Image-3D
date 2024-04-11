@@ -4,8 +4,6 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import fragment from '../shaders/points.fs';
 import vertex from '../shaders/points.vs';
 import texsSrc from '../assets/Images/nature-1.jpg'
-
-import { debounce } from '@ykob/js-util';
 import loadTexs from '../LoaderManager/loadTexs.js'
 import Points from './Points.js'
 

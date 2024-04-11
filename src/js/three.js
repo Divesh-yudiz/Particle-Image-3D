@@ -1,5 +1,4 @@
 import * as THREE from 'three';
-import * as d3 from "d3";
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 import fragment from '../shaders/points.fs';

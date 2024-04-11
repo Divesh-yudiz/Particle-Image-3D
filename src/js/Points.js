@@ -1,5 +1,4 @@
 import * as THREE from 'three'
-import { MathEx } from '@ykob/js-util'
 import fragment from '../shaders/points.fs';
 import vertex from '../shaders/points.vs';
 

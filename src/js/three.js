@@ -77,9 +77,8 @@ export default class Three {
       texsSrc,
       // callback function
       (texture) => {
-        console.log("Hello");
         // Texture loaded callback
-        this.camera.position.set(0, 0, 1000);
+        this.camera.position.set(0, 0, 1200);
         this.camera.lookAt(0, 0, 0);
 
         this.points.createObj(texture);
